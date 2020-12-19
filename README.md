@@ -5,7 +5,7 @@ Files for Homework #1 (Excel Homework) for the UCF Data Analytics &amp; Visualiz
 
 In this homework, we organize and analyze a database of 4,000 Kickstarter projects in order to find any hidden market trends. 
 
-## Instructions
+## Starter Table
 
 ![Kickstarter Table](Images/Sheet1_Conditinal_Formatting.PNG)
 
@@ -17,18 +17,19 @@ This figure shows the provided table wih the 4,000 past Kickstarter projects.
 
   * The `Category and Sub-Category` column has been split into two additional columns, one for `Category` and one for `Sub-Category`.
   
+  ## Category Stats
 
-  ![Category Stats](Images/CategoryStats.png)
+  ![Category Stats](Images/CategoryStats.PNG)
 
-  * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **category**.  It also includes ate a stacked column pivot chart that can be filtered by country.
+  
+  ## Subcategory Stats
 
-  * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
+  ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
-  ![Subcategory Stats](Images/SubcategoryStats.png)
-
-  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
-
-  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
+  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **category**.  It also includes ate a stacked column pivot chart that can be filtered by country.  It also includes a stacked column pivot chart that can be filtered by country and parent-category.
+  
+  
 
 * The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
 
