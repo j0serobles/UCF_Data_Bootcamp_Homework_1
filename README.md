@@ -7,7 +7,7 @@ In this homework, we organize and analyze a database of 4,000 Kickstarter projec
 
 ## Instructions
 
-![Kickstarter Table](Images/Sheet1_Conditinal_Formatting.png)
+![Kickstarter Table](Images/Sheet1_Conditinal_Formatting.PNG)
 
 This figure shows the provided table wih the 4,000 past Kickstarter projects.  
 
