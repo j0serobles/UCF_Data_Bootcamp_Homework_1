@@ -55,5 +55,5 @@ The last worksheet in the workbook contains a summary statistics table to charac
 Normally the mean offers a better summary of the data, as it considers all values in the data set.  But in this case, there are several outliers that tend to influence the mean, making it not very representative of the majority of the values in the data set (skewness).  Thus the median is a better measure of central tendency in this case. 
 
 *Is there more variability with successful or unsuccessful campaigns? Does this make sense? Why or why not?*
-The standard deviation for successful campaings (844.3) is larger than for unsuccessful ones (61.43), so there is more variability for the number of backers for successful campaigns.
+The standard deviation for successful campaings (844.3) is larger than for unsuccessful ones (61.43), so there is more variability for the number of backers for successful campaigns.  This makes sense since failed campaigs tend to have fewer backers and the values for the number of backers do not go far beyond the mean. Successful campaigns have more backers on average, and the values for campaign backers have a larger range. 
 
