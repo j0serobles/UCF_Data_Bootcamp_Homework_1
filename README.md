@@ -1,7 +1,5 @@
 # Excel Homework: Kickstart My Chart
-Files for Homework #1 (Excel Homework) for the UCF Data Analytics &amp; Visualization Bootcamp Dec. 19 2020
-
-## Introduction
+Files for Homework #1 [(Excel Homework)](StarterBook.xlsx) for the UCF Data Analytics &amp; Visualization Bootcamp Dec. 19 2020
 
 In this homework, we organize and analyze a database of 4,000 Kickstarter projects in order to find any hidden market trends. 
 
@@ -21,13 +19,13 @@ This figure shows the provided table wih the 4,000 past Kickstarter projects.
 
   ![Category Stats](Images/CategoryStats.PNG)
 
-  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **category**.  It also includes ate a stacked column pivot chart that can be filtered by country.
+  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **category**.  It also includes a stacked column pivot chart that can be filtered by country.
   
   ## Subcategory Stats
 
   ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
-  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **sub-category**.  It also includes ate a stacked column pivot chart that can be filtered by country.  It also includes a stacked column pivot chart that can be filtered by country and parent-category.
+  This worksheet has a pivot table that analyzes the starter table, counting how many campaigns were successful, failed, canceled, or are currently live per **sub-category**.  It also includes a stacked column pivot chart that can be filtered by country.  It also includes a stacked column pivot chart that can be filtered by country and parent-category.
   
   ## Outcomes Based on Launch Dates
 
@@ -43,37 +41,19 @@ This figure shows the provided table wih the 4,000 past Kickstarter projects.
 
 # Goal Outcomes
 
-  ![Goal Outcomes](Images/GoalOutcomes.png)
+  ![Goal Outcomes](Images/GoalOutcomes.PNG)
 
-This worksheet contains a pivot table and a line chart graphs the relationship between a campaign goal's amount and its chances at success, failure, or cancellation.
+This worksheet contains a pivot table and a line chart that graphs the relationship between a campaign goal's amount and its chances at success, failure, or cancellation.
 
 ## Bonus Statistical Analysis
 
-If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
+The last worksheet in the workbook contains a summary statistics table to characterize the number of campaign backers (a quantitative metric). 
 
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
+  ![Images/backers01.png](Images/backers01.PNG)
 
-* Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+  *Is the mean or the median a more meaningful summary of the data?*
+Normally the mean offers a better summary of the data, as it considers all values in the data set.  But in this case, there are several outliers that tend to influence the mean, making it not very representative of the majority of the values in the data set (skewness).  Thus the median is a better measure of central tendency in this case. 
 
-  ![Images/backers01.png](Images/backers01.png)
+*Is there is more variability with successful or unsuccessful campaigns? Does this make sense? Why or why not?*
+The standard deviation for successful campaings (844.3) is larger than for unsuccessful ones (61.43), so there is more variability for the number of backers for successful campaigns.
 
-* Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
-
-  * The mean number of backers.
-
-  * The median number of backers.
-
-  * The minimum number of backers.
-
-  * The maximum number of backers.
-
-  * The variance of the number of backers.
-
-  * The standard deviation of the number of backers.
-
-* Use your data to determine whether the mean or the median summarizes the data more meaningfully.
-
-* Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
-
-
-© 2019 Trilogy Education Services
