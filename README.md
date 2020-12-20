@@ -54,6 +54,6 @@ The last worksheet in the workbook contains a summary statistics table to charac
   *Is the mean or the median a more meaningful summary of the data?*
 Normally the mean offers a better summary of the data, as it considers all values in the data set.  But in this case, there are several outliers that tend to influence the mean, making it not very representative of the majority of the values in the data set (skewness).  Thus the median is a better measure of central tendency in this case. 
 
-*Is there is more variability with successful or unsuccessful campaigns? Does this make sense? Why or why not?*
+*Is there more variability with successful or unsuccessful campaigns? Does this make sense? Why or why not?*
 The standard deviation for successful campaings (844.3) is larger than for unsuccessful ones (61.43), so there is more variability for the number of backers for successful campaigns.
 
